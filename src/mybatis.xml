@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="admin" type="com.entity.Admin" />
+		<typeAlias alias="employ" type="com.entity.Employ" />
+		<typeAlias alias="cate" type="com.entity.Cate" />
+		<typeAlias alias="goods" type="com.entity.Goods" />
+		<typeAlias alias="sell" type="com.entity.Sell" />
+		<typeAlias alias="details" type="com.entity.Details" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="mapper/admin.xml" />
+		<mapper resource="mapper/employ.xml" />
+		<mapper resource="mapper/cate.xml" />
+		<mapper resource="mapper/goods.xml" />
+		<mapper resource="mapper/sell.xml" />
+		<mapper resource="mapper/details.xml" />
+	</mappers>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
